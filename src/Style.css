@@ -1,0 +1,8 @@
+.aligncenter{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    text-align: center;
+    position: relative;
+    right: -20%;
+  }
