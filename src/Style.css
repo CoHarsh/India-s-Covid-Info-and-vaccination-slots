@@ -5,4 +5,11 @@
     text-align: center;
     position: relative;
     right: -20%;
+    border-bottom:1px solid black ;
+
+  }
+
+  #widthcontrol{
+    width: 30%;
+    margin-top: 10px;
   }
