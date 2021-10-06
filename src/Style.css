@@ -1,15 +1,47 @@
-.aligncenter{
+#tablealign{
     display: flex;
     justify-content: space-between;
-    width: 50%;
+    width: 300px;
     text-align: center;
     position: relative;
     right: -20%;
-    border-bottom:1px solid black ;
-
+    padding: 0 20px;
+    border-bottom: 1px solid black;
+    align-items: center;
   }
 
   #widthcontrol{
     width: 30%;
     margin-top: 10px;
+  }
+
+  #center
+  {
+    display: flex;
+    justify-content: space-around;
+    width: 99% !important;
+
+  }
+
+  #states
+  {
+    border-right: 1px solid black;
+    width: auto;
+    font-size: 15px;
+    font-weight: 700;
+    height: auto;
+  }
+
+  .Bold
+  {
+    font-weight: 500;
+  }
+  .Center
+  {
+    text-align: center;
+  }
+
+  #widthset
+  {
+    width: 30%;
   }
